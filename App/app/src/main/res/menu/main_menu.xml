@@ -1,0 +1,26 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/commandments"
+        android:orderInCategory="100"
+        android:title="Ten Commandments"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/contact"
+        android:orderInCategory="110"
+        android:title="Contact"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/map"
+        android:orderInCategory="120"
+        android:title="Find Us"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/about"
+        android:orderInCategory="90"
+        android:title="About"
+        app:showAsAction="never"/>
+
+
+</menu>
